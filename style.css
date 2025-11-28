@@ -204,6 +204,7 @@ span{
     justify-content:space-evenly;
 }
 ul{
+     text-align:center;
     margin-top:20px;
 }
 ul a{
@@ -356,6 +357,7 @@ ul a{
     }
 
 }
+
 
 
 
