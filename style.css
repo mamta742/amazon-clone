@@ -250,6 +250,103 @@ ul a{
      font-size:0.7rem;
      text-align:center;
 }
+/* ==========================
+   MOBILE RESPONSIVE DESIGN
+   ========================== */
+
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .navbar-logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-address {
+        display: none; /* mobile me remove (Amazon style) */
+    }
+
+    .nav-search {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .search-input {
+        width: 100%;
+    }
+
+    /* PANEL */
+    .panel {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .panel-ops {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+        background-position: center;
+        height: 200px;
+    }
+
+    .hero-msg {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    /* SHOP SECTION */
+    .shop-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .box-img {
+        height: 180px !important;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* FOOTER */
+    .foot-panel2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foot-panel2 ul {
+        margin-bottom: 15px;
+    }
+
+    .foot-panel3 .logo {
+        margin: auto;
+    }
+
+    .pages {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+}
+
+
 
 
 
