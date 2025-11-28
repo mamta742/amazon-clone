@@ -48,7 +48,7 @@
     margin-left:3px;
 }
 .add-icon{
-    display:-flex;
+    display:inline-flex;
     align-items:center;
 }
 .nav-search{
@@ -268,6 +268,12 @@ ul a{
         margin-bottom: 10px;
     }
 
+     .add-icon{
+          
+    display:inline-flex;
+    justify-content: space-between;
+        
+     }
     .nav-address {
         display: none; /* mobile me remove (Amazon style) */
     }
@@ -329,6 +335,7 @@ ul a{
 
      .foot{
           text-align:center;
+          flex-direction: column;
      }
     .foot-panel2 {
         flex-direction: column;
@@ -349,6 +356,7 @@ ul a{
     }
 
 }
+
 
 
 
