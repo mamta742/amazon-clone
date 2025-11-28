@@ -204,10 +204,11 @@ span{
     justify-content:space-evenly;
 }
 ul{
-     text-align:center;
+    
     margin-top:20px;
 }
 ul a{
+    
     display:block;
     font-size:0.85rem;
     margin-top:10px;
@@ -357,6 +358,7 @@ ul a{
     }
 
 }
+
 
 
 
