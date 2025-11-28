@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    height:30px;
+    height:60px;
     background-color: #0f1111;
     color:white;
      display:flex;
@@ -320,12 +320,16 @@ ul a{
     }
 
     .box-img {
-        height: 180px !important;
+        /* height: 180px !important; */
         background-size: cover;
         background-position: center;
     }
 
     /* FOOTER */
+
+     .foot{
+          text-align:center;
+     }
     .foot-panel2 {
         flex-direction: column;
         text-align: center;
@@ -345,6 +349,7 @@ ul a{
     }
 
 }
+
 
 
 
