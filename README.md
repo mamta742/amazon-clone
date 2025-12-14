@@ -3,6 +3,8 @@ Amazon Clone (HTML + CSS Only)
 This project is a pure frontend Amazon Clone built using only HTML & CSS.
 It focuses completely on layout, design, and responsiveness — no JavaScript or backend is used.
 
+Project link: https://mamta742.github.io/amazon-clone
+
  Features
  
 * Fully Responsive UI
